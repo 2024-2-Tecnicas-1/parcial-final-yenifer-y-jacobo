@@ -16,4 +16,10 @@ public class Leon extends Animal {
         return "carnivoro";
     }
 
+    public TipoHabitat getHabitat() {
+        return habitat;
+    }
+    
+    
+
 }

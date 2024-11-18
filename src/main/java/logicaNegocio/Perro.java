@@ -22,4 +22,7 @@ public class Perro extends Animal implements Domestico{
         return "El perro mueve la cola y ladra de felicidad";
     }
     
+    public TipoHabitat getHabitat() {
+        return habitat;
+    }
 }
