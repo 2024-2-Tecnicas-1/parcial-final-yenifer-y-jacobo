@@ -1,7 +1,7 @@
 package logicaNegocio;
 
 public abstract class Animal {
- protected TipoHabitat habitad;
+ protected TipoHabitat habitat;
   
  public abstract String emitirSonido();
 
